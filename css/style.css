@@ -347,3 +347,70 @@ footer.footer-area .social a:hover > i{
 
 
 /* End Footer */ 
+
+
+.d-sm-flex .justify-content-center .container{
+    max-width: 800px;
+    height: 200px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+  }
+  
+ 
+  
+  .input,
+  .msg .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  
+  .login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+  }
+  
+  .login .input:last-child{
+    margin-right: 0;
+  }
+  
+  .msg .area{
+    height: 100px;
+  }
+  
+  .btn{
+    width: 250px;
+    background: #dd3941;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left:  150px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .input:focus,
+  .msg .area:focus{
+    border: 2px solid #486255;
+  }
+  
+  
+  
+  
+  
+  
+  
